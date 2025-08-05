@@ -7,8 +7,8 @@ from functools import lru_cache
 from typing import List, Optional, Union
 from pathlib import Path
 
-from pydantic import BaseSettings, validator, Field
-from pydantic_settings import BaseSettings as PydanticSettings
+from pydantic_settings import BaseSettings
+from pydantic import Field, validator
 
 
 class DatabaseSettings(BaseSettings):
